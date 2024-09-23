@@ -140,9 +140,9 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/git-basics-activities.git
 
 ### Activity 3.1 - Changing an Existing File and Committing them
 
-**Step 1.** Open the repository in your code editor and make a change to the file XXXX
+**Step 1.** Open the repository in your code editor and MAKE SOME CHANGE TO FILE ZZZZXXXX.MD AND SAVE THE FILE
 
-**Step 2.** Save the changes and then open GitBash or Terminal in the repository directory
+**Step 2.** Save the changes and then open ***GitBash*** or ***Terminal*** in the repository directory (use the `cd` command to navigate to the directory)
 
 **Step 3.** Run the `git status` command to see which files have been changed
 
@@ -158,6 +158,36 @@ git status
 # In this example, the file was called activities.md
 git add activities.md
 ```
+
+**Step 5.** See the result of the `add` command by running `git status` again
+
+![Staged Changes](images/staged-existing-status.png)
+
+**Step 6.** Restore the file to its original state by running the `git restore --staged` command, followed by the filename
+
+```bash
+git restore --staged activities.md
+```
+
+**Step 7.** See the result of the `restore` command by running `git status` again
+
+> You should see that the changes have been unstaged and the file is back to its original state
+
+**Step 8.** Repeat steps 1-5 to stage the changes again
+
+**Step 9.** Run the `git commit` command followed by the `-m` flag and a message in quotes to commit the changes
+
+```bash
+git commit -m "Updated the activities file"
+```
+
+> If you omit the `-m` flag, Git will open a text editor for you to enter a commit message
+> You can use the `i` key to enter insert mode and type your message
+> You can then press `ESC` to exit insert mode and type `:wq` to save and exit the text editor
+> If you make a mistake, you can press `ESC` and type `:q!` to exit without saving
+> You can also use the `git commit -am` command to stage and commit all changes in one step
+
+**Step 10.** Run the `git status` command to see that there are no further changes to commit
 
 ### Activity 3.2 - Adding a New File and Tracking it
 

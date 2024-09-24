@@ -140,9 +140,13 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/git-basics-activities.git
 
 ### Activity 3.1 - Changing an Existing File and Committing them
 
-**Step 1.** Open the repository in your code editor and MAKE SOME CHANGE TO FILE ZZZZXXXX.MD AND SAVE THE FILE
+**Step 1.** Navigate to the repository directory on your command line or terminal
 
-**Step 2.** Save the changes and then open ***GitBash*** or ***Terminal*** in the repository directory (use the `cd` command to navigate to the directory)
+**Step 2.** Add some text to an existing file in the repository using the `echo` command, and the *append to end of file* operator `>>`
+
+```bash
+echo "Some additional text in an existing file" >> src/existingfile.txt
+```
 
 **Step 3.** Run the `git status` command to see which files have been changed
 
@@ -188,6 +192,11 @@ git commit -m "Updated the activities file"
 > You can also use the `git commit -am` command to stage and commit all changes in one step
 
 **Step 10.** Run the `git status` command to see that there are no further changes to commit
+
+![No Further Changes](images/committed-existing-status.png)
+
+> You will notice that there is a message about the local branch being ahead of `'origin/main'` by 1 commit
+> We will deal with this in Activity 3.4
 
 ### Activity 3.2 - Adding a New File and Tracking it
 

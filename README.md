@@ -2,56 +2,20 @@
 
 This repository contains the reference materials for engineers who need to learn and practice the basics of version control using Git and GitHub.
 
-## Contents - Short Version
-
-### Pre-requisites
-
-1. You have downloaded and install Git on your computer
-2. You have signed up for a GitHub account
-3. You have configured Git with your GitHub account
+## Contents
 
 - [Version Control Basics](version-control-basics.md)
 - [Git Origins and History](git-origins-history.md)
-- [Forking an existing Repository from GitHub](forking-repository.md)
-- [Cloning a Repository](cloning-repository.md)
-- [Making and Managing Changes](making-managing-changes.md)
-- [Going Back in Time](going-back-in-time.md)
 
-### Activities - Short Version
+### Activities
 
-- [Activity 1: Fork an existing GitHub Repository](activities.md#activity-1-forking-repository)
-- [Activity 2: Cloning a Repository](activity-cloning-repository.md)
-- [Activity 3: Making and Managing Changes](activity-make-manage-changes.md)
-- [Activity 4: Going Back in Time](activity-going-back-in-time.md)
-
----
-
-## Contents - Long Version
-
-- [Version Control Basics](version-control-basics.md)
-- [Git Origins and History](git-origins-history.md)
-- [Setting up Git](setting-up-git.md)
-- [Repository Basics](repository-basics.md)
-- [Making and Managing Changes](making-managing-changes.md)
-- [Branching and Merging](branching-merging.md)
-- [Using Remote Repositories](using-remote-repositories.md)
-- [Going Back in Time](going-back-in-time.md)
-- [Stashing Changes](stashing-changes.md)
-- [Ignoring Files](ignoring-files.md)
-- [GitHub Basics](github-basics.md)
-- [GitHub Education](github-education.md)
-
-## Activities - Long Version
-
-- [Activity 1: Create a Repository](activity-create-repository.md)
-- [Activity 2: Make and Manage Changes](activity-make-manage-changes.md)
-- [Activity 3: Branching and Merging](activity-branching-merging.md)
-- [Activity 4: Using Remote Repositories](activity-using-remote-repositories.md)
-- [Activity 5: Going Back in Time](activity-going-back-in-time.md)
-- [Activity 6: Stashing Changes](activity-stashing-changes.md)
-- [Activity 7: Ignoring Files](activity-ignoring-files.md)
-- [Activity 8: GitHub Basics](activity-github-basics.md)
-- [Activity 9: GitHub Education](activity-github-education.md)
+- [Pre-requisites](activities.md#pre-requisites)
+- [Activity 1: Fork an existing GitHub Repository](activities.md#activity-1-fork-an-existing-github-repository)
+- [Activity 2: Cloning a Repository](activities.md#activity-2-cloning-a-repository)
+- [Activity 3: Making and Managing Changes](activities.md#activity-3-making-and-managing-changes)
+- [Activity 4: Going Back in Time](activities.md#activity-4-going-back-in-time)
+  - [Additional Activities](activities.md#additional-activities)
+    - [Activity 5: Branching and Merging](activities.md#activity-5-branching-and-merging)
 
 ---
 

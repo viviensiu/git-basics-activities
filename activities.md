@@ -1,4 +1,4 @@
-# Git Basics (Short Version) Activities
+# Git Basics Activities
 
 This repository contains the reference materials for engineers who need to learn and practice the basics of version control using Git and GitHub.
 
@@ -36,7 +36,7 @@ git config --global init.defaultBranch main
 
 ## Contents
 
-- [Git Basics (Short Version) Activities](#git-basics-short-version-activities)
+- [Git Basics Activities](#git-basics-activities)
   - [Pre-requisites](#pre-requisites)
     - [1. You have downloaded and install Git on your computer](#1-you-have-downloaded-and-install-git-on-your-computer)
     - [2. You have signed up for a GitHub account](#2-you-have-signed-up-for-a-github-account)
@@ -60,7 +60,7 @@ git config --global init.defaultBranch main
       - [Activity 5.3 - Pushing the New Branch to GitHub](#activity-53---pushing-the-new-branch-to-github)
       - [Activity 5.4 - Starting the Merge of the New Branch into `main` by Creating a Pull Request](#activity-54---starting-the-merge-of-the-new-branch-into-main-by-creating-a-pull-request)
       - [Activity 5.5 - Reviewing the Pull Request and Completing the Merge into `main`](#activity-55---reviewing-the-pull-request-and-completing-the-merge-into-main)
-      - [Activity 5.5 - Deleting the New Branch both locally and on GitHub](#activity-55---deleting-the-new-branch-both-locally-and-on-github)
+      - [Activity 5.5 - Deleting the New Branch both on GitHub and Locally](#activity-55---deleting-the-new-branch-both-on-github-and-locally)
 
 ---
 ---
@@ -681,7 +681,7 @@ In this image:
     <img src="images/merge-success.png" alt="Successful Merge in GitHub" title="Successful Merge in GitHub"/>
 </div>
 
-#### Activity 5.5 - Deleting the New Branch both locally and on GitHub
+#### Activity 5.5 - Deleting the New Branch both on GitHub and Locally
 
 **Step 1.** Click the `Delete branch` button to delete the branch on GitHub - you will no longer be able to see the `new-feature` branch in the dropdown
 

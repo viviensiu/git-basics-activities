@@ -1,2 +1,3 @@
 Existing text in file!
 
+Some additional text in an existing file
